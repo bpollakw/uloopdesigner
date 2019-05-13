@@ -1,0 +1,107 @@
+LOCUS       pCA_odd_1               2072 bp ds-DNA     circular     13-MAY-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     rep_origin      complement(238..518)
+                     /label=pBR322\ori
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             complement(813..1625)
+                     /label=KanR CDS (facing ORI)
+                     /ApEinfo_fwdcolor="#ff8000"
+                     /ApEinfo_revcolor="#ff8000"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 10 offset 0"
+     misc_feature    74..793
+                     /label=pBR322 ORI (essential) - Like pODD/pEVEN
+                     /ApEinfo_fwdcolor="#6666ff"
+                     /ApEinfo_revcolor="#6666ff"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    complement(1626..1815)
+                     /label=Shared with CAJAPHA3 plasmid promoter
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="cyan"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    complement(1988..2029)
+                     /label=In T-DNA region AH003392.2
+                     /ApEinfo_fwdcolor="#ffff66"
+                     /ApEinfo_revcolor="#ffff66"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    44..73
+                     /label=Extra region of pBR322
+                     /ApEinfo_fwdcolor="#66ffcc"
+                     /ApEinfo_revcolor="#66ffcc"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    4..43
+                     /label=UNSX
+                     /ApEinfo_fwdcolor="#9882ff"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    2..3
+                     /label=bases needed for Gibson pairing
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    2030..2069
+                     /label=UNS1
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    2070..2071
+                     /label=Bases needed for Gibson pairing
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 aCCCCAGGAT ACATAGATTA CCACAACTCC GAGCCCTTCC ACCcacagaa tcaggggata
+       61 acgcaggaaa gaacatgtga gcaaaaggcc agcaaaaggc caggaaccgt aaaaaggccg
+      121 cgttgctggc gtttttccat aggctccgcc cccctgacga gcatcacaaa aatcgacgct
+      181 caagtcagag gtggcgaaac ccgacaggac tataaagata ccaggcgttt ccccctggaa
+      241 gctccctcgt gcgctctcct gttccgaccc tgccgcttac cggatacctg tccgcctttc
+      301 tcccttcggg aagcgtggcg ctttctcata gctcacgctg taggtatctc agttcggtgt
+      361 aggtcgttcg ctccaagctg ggctgtgtgc acgaaccccc cgttcagccc gaccgctgcg
+      421 ccttatccgg taactatcgt cttgagtcca acccggtaag acacgactta tcgccactgg
+      481 cagcagccac tggtaacagg attagcagag cgaggtatgt aggcggtgct acagagttct
+      541 tgaagtggtg gcctaactac ggctacacta gaaggacagt atttggtatc tgcgctctgc
+      601 tgaagccagt taccttcgga aaaagagttg gtagctcttg atccggcaaa caaaccaccg
+      661 ctggtagcgg tggttttttt gtttgcaagc agcagattac gcgcagaaaa aaaggatctc
+      721 aagaagatcc tttgatcttt tctacggggt ctgacgctca gtggaacgaa aactcacgtt
+      781 aagggatttt ggtcatgcat tctaggtgat tagaaaaact catcgagcat caaatgaaac
+      841 tgcaatttat tcatatcagg attatcaata ccatattttt gaaaaagccg tttctgtaat
+      901 gaaggagaaa actcaccgag gcagttccat aggatggcaa gatcctggta tcggtctgcg
+      961 attccgactc gtccaacatc aatacaacct attaatttcc cctcgtcaaa aataaggtta
+     1021 tcaagtgaga aatcaccatg agtgacgact gaatccggtg agaatggcaa aagtttatgc
+     1081 atttctttcc agacttgttc aacaggccag ccattacgct cgtcatcaaa atcactcgca
+     1141 tcaaccaaac cgttattcat tcgtgattgc gcctgagcga gtcgaaatac gcgatcgctg
+     1201 ttaaaaggac aattacaaac aggaatcgaa tgcaaccggc gcaggaacac tgccagcgca
+     1261 tcaacaatat tttcacctga atcaggatat tcttctaata cctggaatgc tgttttccct
+     1321 gggatcgcag tggtgagtaa ccatgcatca tcaggagtac ggataaaatg cttgatggtc
+     1381 ggaagaggca taaattccgt cagccagttt agtctgacca tctcatctgt aacatcattg
+     1441 gcaacgctac ctttgccatg tttcagaaac aactctggcg catcgggctt cccatacaat
+     1501 cggtagattg tcgcacctga ttgcccgaca ttatcgcgag cccatttata cccatataaa
+     1561 tcagcatcca tgttggaatt taatcgcggc cttgagcaag acgtttcccg ttgaatatgg
+     1621 ctcataacag aacttattat ttccttcctc ttttctacag tatttaaaga taccccaaga
+     1681 agctaattat aacaagacga actccaattc actgttcctt gcattctaaa accttaaata
+     1741 ccagaaaaca gctttttcaa agttgttttc aaagttggcg tataacatag tatcgacgga
+     1801 gccgattttg aaaccgcggt gatcacaggc agcaacgctc tgtcatcgtt acaatcaaca
+     1861 tgctaccctc cgcgagatca tccgtgtttc aaacccggca gcttagttgc cgttcttccg
+     1921 aatagcatcg gtaacatgag caaagtctgc cgccttacaa cggctctccc gctgacgccg
+     1981 tcccggactg atgggctgcc tgtatcgagt ggtgattttg tgccgagctC ATTACTCGCA
+     2041 TCCATTCTCA GGCTGTCTCG TCTCGTCTCC Ga  
+//

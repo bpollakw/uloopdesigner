@@ -1,0 +1,18 @@
+<plasmid id="p1" plasmidwidth=400 plasmidheight=400 style = "display:block; margin:auto;" height = "100%" sequencelength = {{length}}>
+	
+	<plasmidtrack class="t1" radius = {{radius}} width = 0.5>
+		<trackscale interval="100" direction="in" style="stroke:#aaa; stroke-width:1p"></trackscale>
+		<trackscale interval="1000" direction="in" showlabels="1" style="stroke:#f00; stroke-width:2p" labelvadjust="15" labelstyle="font-size:8px;fill:#999"></trackscale>
+		<tracklabel text="{{name}}"></tracklabel>
+	</plasmidtrack>
+	
+	<plasmidtrack class="t1" ng-repeat="i in range" id = "{{i}}" radius = "{{radius + i * width}}", width = {{width}}>
+		<trackmarker ng-repeat="part in markers[i]", start = "{{part.start}}", end = "{{part.end}}", style="fill:{{part.color}};stroke:#036", markerclick="click($event, $marker)">
+				<markerlabel class='mlabel' text='{{part.text}}' type='path'></markerlabel>
+		</trackmarker>
+	</plasmidtrack>
+</plasmid>
+
+<i class = "fa fa-download download" onClick = "downloadPart()"></i>
+<i class = "fa fa-pencil-square-o edit" onClick = "editPart()"></i>
+<i class = "fa fa-trash trash" onClick = "deletePart()"></i>
