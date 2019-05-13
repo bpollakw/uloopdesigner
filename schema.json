@@ -17,7 +17,6 @@
 		{"name": "aw", "re": "SapI", "site5": "ATG"  , "site3": "GGT" },
 
 		{"name": "prom",	"re": "BsaI",	"site5": "GGAG",	"site3": "AATG"},
-		//{"name": "prom",	"re": "BsaI",	"site5": "GGAG",	"site3": "TACT"},
 		{"name": "cds",		"re": "BsaI",	"site5": "AATG",	"site3": "AGGT"},
 		{"name": "ctag",	"re": "BsaI",	"site5": "AGGT",	"site3": "GCTT"},
 		{"name": "term",	"re": "BsaI",	"site5": "GCTT",	"site3": "CGCT"},
