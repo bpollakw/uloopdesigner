@@ -25,7 +25,7 @@
 
 	],
 	"BaseSeq":[
-		{"name": "L0", "gbFile": "gb/L0R.gb" },
+		{"name": "L0", "gbFile": "gb/pL0R.gb" },
 		
 		{"name": "pCAodd-1", "receiver": "AF", "gbFile": "gb/pCAo.gb"},
 		{"name": "pCAodd-2", "receiver": "AF", "gbFile": "gb/pCAo.gb"},
