@@ -54,7 +54,7 @@ def check(seq, sites):
 			found = found + 1
 	return found
 
-def domesticate(rec):
+def domesticate(rec, backbone):
 	sites = {}
 
 	# Finding restriction sites
