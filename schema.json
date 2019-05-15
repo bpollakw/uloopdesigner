@@ -16,7 +16,9 @@
 		{"name": "ew", "re": "SapI", "site5": "CAG"  , "site3": "GGT" },
 		{"name": "aw", "re": "SapI", "site5": "ATG"  , "site3": "GGT" },
 
-		{"name": "prom",	"re": "BsaI",	"site5": "GGAG",	"site3": "AATG"},
+		{"name": "prom5",	"re": "BsaI",	"site5": "GGAG",	"site3": "AATG"},
+		{"name": "prom",	"re": "BsaI",	"site5": "GGAG",	"site3": "TACT"},
+		{"name": "5utr",	"re": "BsaI",	"site5": "TACT",	"site3": "AATG"},
 		{"name": "cds",		"re": "BsaI",	"site5": "AATG",	"site3": "AGGT"},
 		{"name": "ctag",	"re": "BsaI",	"site5": "AGGT",	"site3": "GCTT"},
 		{"name": "term",	"re": "BsaI",	"site5": "GCTT",	"site3": "CGCT"},
@@ -46,10 +48,12 @@
 		{"name": "pCAeven-3", "baseSeq" : "pCAeven-3", "adapter" : "CE" },
 		{"name": "pCAeven-4", "baseSeq" : "pCAeven-4", "adapter" : "EF" },
 
-		{"name": "L0-PROM", 	"baseSeq" : "L0", "adapter" : "prom"	},
-		{"name": "L0-CDS", 		"baseSeq" : "L0", "adapter" : "cds"		},
-		{"name": "L0-CTAG", 	"baseSeq" : "L0", "adapter" : "ctag"	},
-		{"name": "L0-TERM", 	"baseSeq" : "L0", "adapter" : "term"	},
-		{"name": "L0-TU", 		"baseSeq" : "L0", "adapter" : "TU"		}
+		{"name": "AC-PROM5", 	"baseSeq" : "L0", "adapter" : "prom5"	},
+		{"name": "AB-PROM", 	"baseSeq" : "L0", "adapter" : "prom"	},
+		{"name": "BC-5UTR", 	"baseSeq" : "L0", "adapter" : "5utr"	},
+		{"name": "CD-CDS", 		"baseSeq" : "L0", "adapter" : "cds"		},
+		{"name": "DE-CTAG", 	"baseSeq" : "L0", "adapter" : "ctag"	},
+		{"name": "EF-TERM", 	"baseSeq" : "L0", "adapter" : "term"	},
+		{"name": "AF-TU", 		"baseSeq" : "L0", "adapter" : "TU"		}
 	]
 }
