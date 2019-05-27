@@ -18,7 +18,7 @@
 
 		{"name": "prom5",	"re": "BsaI",	"site5": "GGAG",	"site3": "AATG"},
 		{"name": "prom",	"re": "BsaI",	"site5": "GGAG",	"site3": "TACT"},
-		{"name": "5utr",	"re": "BsaI",	"site5": "TACT",	"site3": "AATG"},
+		{"name": "utr5",	"re": "BsaI",	"site5": "TACT",	"site3": "AATG"},
 		{"name": "cds",		"re": "BsaI",	"site5": "AATG",	"site3": "AGGT"},
 		{"name": "ctag",	"re": "BsaI",	"site5": "AGGT",	"site3": "GCTT"},
 		{"name": "term",	"re": "BsaI",	"site5": "GCTT",	"site3": "CGCT"},
@@ -50,7 +50,7 @@
 
 		{"name": "AC-PROM5", 	"baseSeq" : "L0", "adapter" : "prom5"	},
 		{"name": "AB-PROM", 	"baseSeq" : "L0", "adapter" : "prom"	},
-		{"name": "BC-5UTR", 	"baseSeq" : "L0", "adapter" : "5utr"	},
+		{"name": "BC-5UTR", 	"baseSeq" : "L0", "adapter" : "utr5"	},
 		{"name": "CD-CDS", 		"baseSeq" : "L0", "adapter" : "cds"		},
 		{"name": "DE-CTAG", 	"baseSeq" : "L0", "adapter" : "ctag"	},
 		{"name": "EF-TERM", 	"baseSeq" : "L0", "adapter" : "term"	},
