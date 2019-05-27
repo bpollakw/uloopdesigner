@@ -118,7 +118,9 @@ function assemblyForm(backboneList){
 					if (w2ui['sideBar'].parts.find( ({name}) => name == this.record["Part name"] )){
 						event.errors.push( {field: this.get("Part name"), error: "Part name already exists"} )
 					}
-					
+				};	
+				
+				this.onValidate = function(event){
 					else(this.record["Part name"].length > 99){
 						event.errors.push( {field: this.get("Part name"), error: "Part name length too long"} )
 					}
