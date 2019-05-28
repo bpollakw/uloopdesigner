@@ -119,9 +119,9 @@ function assemblyForm(backboneList){
 						event.errors.push( {field: this.get("Part name"), error: "Part name already exists"} )
 					}
 					
-					if(this.record["Part name"].length > 99){
+					/*if(this.record["Part name"].length > 99){
 						event.errors.push( {field: this.get("Part name"), error: "Part name length too long"} )
-					}
+					}*/
 
 				};	
 
