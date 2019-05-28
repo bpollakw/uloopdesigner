@@ -251,8 +251,14 @@ def submitPart(part):
 	backbone = loopDB.session.query(Backbone).filter(Backbone.dbid == part["backbone"]["dbid"]).first()
 	if len(children) == len(part["children"]) and backbone:
 
-		newPart = loopDB.addPart(name = part["name"], children = children, backbone = backbone)
-		loopDB.commit()
+		try:
+			newPart = loopDB.addPart(name = part["name"], children = children, backbone = backbone)
+		except:
+			loopDB.rollback()
+			raise
+		else:
+			loopDB.commit()
+
 		return ["OK", partToJson(newPart)]
 	else:
 		return ["ERROR", "Backbone or one of the children not found"]

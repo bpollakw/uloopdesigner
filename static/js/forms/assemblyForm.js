@@ -90,7 +90,7 @@ function assemblyForm(backboneList){
 
 							w2ui['assemblyForm'].destroy();
 							w2form = $().w2form(form);
-
+/*
 							if (w2form.fields.find( ({field}) => field == "Part name" ) != null){
 								console.log("Found FIELD");
 								
@@ -102,7 +102,7 @@ function assemblyForm(backboneList){
 								};
 								w2form.refresh();
 							}
-
+*/
 							w2form.on({type: 'change', execute: 'after'}, w2form.proceedFunction);
 							w2ui['layout'].content('main', w2form );
 						}
@@ -118,11 +118,10 @@ function assemblyForm(backboneList){
 					if (w2ui['sideBar'].parts.find( ({name}) => name == this.record["Part name"] )){
 						event.errors.push( {field: this.get("Part name"), error: "Part name already exists"} )
 					}
-					
-					/*if(this.record["Part name"].length > 99){
+					/*
+					if(this.record["Part name"].length > 99){
 						event.errors.push( {field: this.get("Part name"), error: "Part name length too long"} )
 					}*/
-
 				};	
 
 				if (this.validate(true).length == 0){
