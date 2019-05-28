@@ -120,6 +120,7 @@ function assemblyForm(backboneList){
 					}
 				};	
 				
+				
 				this.onValidate = function(event){
 					else(this.record["Part name"].length > 99){
 						event.errors.push( {field: this.get("Part name"), error: "Part name length too long"} )
