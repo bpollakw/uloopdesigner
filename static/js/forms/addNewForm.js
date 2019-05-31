@@ -74,7 +74,7 @@ function addNewForm(backbones){
 				event.errors.push( {field: this.get("Part name"), error: "Part name already exists"} );
 			}
 			if (this.record["Sequence"].match(new RegExp("[^ATCGatcg]", "g"))){
-				event.errors.push( {field: this.get("Sequence"), error: "Invalid characters detected"  } );
+				event.errors.push( {field: this.get("Sequence"), error: "Invalid characters detected use ATCG nucleotides"  } );
 			}
 		},
 		actions:{

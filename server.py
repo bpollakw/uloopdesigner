@@ -9,7 +9,7 @@ from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 from Bio import SeqIO
 from Bio import Restriction
-from domesticate import domesticate, partColors
+from domesticate import predomesticateCDS, domesticate, partColors
 from Bio.SeqFeature import SeqFeature, FeatureLocation
 
 import config
@@ -165,13 +165,16 @@ def addL0(part):
 	backbone = loopDB.session.query(Backbone).filter(Backbone.dbid == part["Backbone"]["dbid"]).first()
 
 	if part["Sequence"]:
-		record = SeqRecord( seq = Seq( part["Sequence"], IUPAC.unambiguous_dna ) )
+		record = SeqRecord( seq = Seq( part["Sequence"].upper(), IUPAC.unambiguous_dna ) )
 	else:
 		gbFile = StringIO(base64.decodestring( part["GenBank file"][0]["content"] ) )
 		record = SeqIO.read(gbFile, format="genbank")
 
+	if (backbone.name == "CD-CDS" or backbone.name == "CE-CDS"):
+		record =  predomesticateCDS(record, backbone)
+
 	record = Seq( backbone.adapter.site5, IUPAC.unambiguous_dna)\
-				+ record + Seq( backbone.adapter.site3, IUPAC.unambiguous_dna)
+				+ record.upper() + Seq( backbone.adapter.site3, IUPAC.unambiguous_dna)
 
 	record = domesticate(record, backbone)
 	#for feature in record.features:

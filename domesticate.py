@@ -54,15 +54,35 @@ def check(seq, sites):
 			found = found + 1
 	return found
 
+def predomesticateCDS(rec, backbone):
+	if rec.seq.startswith("ATG") == True:
+		print "has ATG, removing"
+		#record.seq = record.seq.lstrip("ATG")
+		rec = rec[3:]
+	if rec.seq.endswith("TAG") or rec.seq.endswith("TGA") or rec.seq.endswith("TAA"):
+		print "has TAG or TGA or TAA,  removing and adding GC"
+	#	record.seq = record.seq.rstrip("TAG")
+	#	record.seq = record.seq.rstrip("TGA")
+	#	record.seq = record.seq.rstrip("TAA")
+		rec = rec[0:-3]
+		rec.seq = rec.seq + "GC"
+
+	if rec.seq.endswith("TAG") or rec.seq.endswith("TGA") or rec.seq.endswith("TAA"):
+		print "aOK"
+		return None
+
+	return rec
+
 def domesticate(rec, backbone):
 	sites = {}
-
 	# Finding restriction sites
+
 	for pattern in replace:
 		sites[pattern] = recfind(pattern, rec.seq.upper())
 
 	# Replacing and labeling restriction sites
 	n = 0
+
 	for pattern in sites:
 		for site in sites[pattern]:
 			rec = rec[:site] + Seq( replace[pattern][ (site-1) % 3 ], IUPAC.unambiguous_dna ) + rec[site + len(pattern):]
