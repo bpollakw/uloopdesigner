@@ -1,0 +1,30 @@
+LOCUS       CDS_CD_mRFP1             678 bp ds-DNA     circular     14-MAY-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     CDS             1..675
+                     /label=mRFP1
+                     /ApEinfo_fwdcolor="#0080ff"
+                     /ApEinfo_revcolor="#0080ff"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 10 offset 0"
+ORIGIN
+        1 atggcttcct ccgaagacgt tatcaaagag ttcatgcgtt tcaaagttcg tatggaaggt
+       61 tccgttaacg gtcacgagtt cgaaatcgaa ggtgaaggtg aaggtcgtcc gtacgaaggt
+      121 acccagaccg ctaaactgaa agttaccaaa ggtggtccgc tgccgttcgc ttgggacatc
+      181 ctgtccccgc agttccagta cggttccaaa gcttacgtta aacacccggc tgacatcccg
+      241 gactacctga aactgtcctt cccggaaggt ttcaaatggg aacgtgttat gaacttcgaa
+      301 gacggtggtg ttgttaccgt tacccaggac tcctccctgc aagacggtga gttcatctac
+      361 aaagttaaac tgcgtggtac caacttcccg tccgacggtc cggttatgca gaaaaaaacc
+      421 atgggttggg aagcttccac cgaacgtatg tacccggaag acggtgctct gaaaggtgaa
+      481 atcaaaatgc gtctgaaact gaaagacggt ggtcactacg acgctgaagt taaaaccacc
+      541 tacatggcta aaaaaccggt tcagctgccg ggtgcttaca aaaccgacat caaactggac
+      601 atcacctccc acaacgaaga ctacaccatc gttgaacagt acgaacgtgc tgaaggtcgt
+      661 cactccaccg gtgctTAG    
+//

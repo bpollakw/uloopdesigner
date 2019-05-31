@@ -1,0 +1,19 @@
+LOCUS       CTAG_DE_3xStop             9 bp ds-DNA     circular     14-MAY-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    1..9
+                     /label=3xSTOP
+                     /ApEinfo_fwdcolor="#ff66ff"
+                     /ApEinfo_revcolor="#ff66ff"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 TAATGATAG     
+//

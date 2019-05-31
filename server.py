@@ -170,16 +170,6 @@ def addL0(part):
 		gbFile = StringIO(base64.decodestring( part["GenBank file"][0]["content"] ) )
 		record = SeqIO.read(gbFile, format="genbank")
 
-	if backbone.name == "CD-CDS":
-		if record.seq.startswith("ATG") == True:
-			record.seq = record.seq.lstrip("ATG")
-		
-		if record.seq.endswith("TAG") or record.seq.endswith("TGA") or record.seq.endswith("TAA"):
-			record.seq = record.seq.rstrip("TAG")
-			record.seq = record.seq.rstrip("TGA")
-			record.seq = record.seq.rstrip("TAA")
-			record.seq = record.seq + "GC"
-
 	record = Seq( backbone.adapter.site5, IUPAC.unambiguous_dna)\
 				+ record + Seq( backbone.adapter.site3, IUPAC.unambiguous_dna)
 

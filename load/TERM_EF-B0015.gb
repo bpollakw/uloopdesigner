@@ -1,0 +1,29 @@
+LOCUS       TERM_EF_B0015            129 bp ds-DNA     circular     14-MAY-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     terminator      12..55
+                     /locus_tag="rrnB_T1_terminator"
+                     /label=rrnB_T1_terminator
+                     /ApEinfo_fwdcolor="#9d1b1c"
+                     /ApEinfo_revcolor="#9d1b1c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1..129
+                     /locus_tag="B0015"
+                     /label=B0015
+                     /ApEinfo_fwdcolor="#ff8080"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 ccaggcatca aataaaacga aaggctcagt cgaaagactg ggcctttcgt tttatctgtt
+       61 gtttgtcggt gaacgctctc tactagagtc acactggctc accttcgggt gggcctttct
+      121 gcgtttata     
+//

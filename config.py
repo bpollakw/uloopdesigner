@@ -1,4 +1,4 @@
 DEBUG			= True
-SECRET_KEY		= "HAKSJDH*@QE*Q@EUQD?<?><?><@23123HN(*@YEHQ#JKBED(*XYIH"
+SECRET_KEY		= "secret"
 DATABASE_URL	= "postgres:///loopdb"
 SCHEMA_PATH		= "schema.json"

@@ -1,23 +1,17 @@
-# LoopDesigner
+# (u)LoopDesigner
 
-LoopDesigner is a web app for interacting with LoopDB. Currently, the following features are available:
+uLoopDesigner is a web app for interacting with LoopDB, based on the original LoopDesigner written by Mihails Delhmans from https://github.com/HaseloffLab/LoopDB/tree/loopdesigner. The schema has been implemented for a simplified syntax so that there's less redundancy in (u)Loop libraries.
 
-* Adding a new part from a nucleotide sequence.
-* Adding multiple parts from a Multi-FASTA file.
-* Performing _in-silico_ loop assembly.
-* Browsing plasmid maps of existing parts and constructs.
-* Searching for a part by it's name.
-* Automatic assembly protocol generation.
-
-You can try a public version at [loopdesigner.herokuapp.com](http://loopdesigner.herokuapp.com)
+You can try a public version at [uloopdesigner.herokuapp.com](http://uloopdesigner.herokuapp.com)
 
 # Installation
 
-This section will explain how to install a local LoopDesigner server.
+This section will explain how to install a local (u)LoopDesigner server.
 
 ## Gettting Started
 
 ### Installing LoopDB
+There are several difficulties with the installation that will require basic coding and maybe (depending on the case) debugging. You need command-line skills and at this point I've been successful on running it in MacOS. Linux probably work but I'd suggest using the last version of Ubuntu/Debian.
 
 LoopDB is available through PyPi, so you can just
 
@@ -35,6 +29,8 @@ can be done with
 ``` bash
 createdb loopdb
 ```
+
+You'll need credentials.
 
 ### Install LoopDesigner
 
@@ -65,42 +61,28 @@ http://127.0.0.1:8000
 
 in your browser.
 
-### Setting up a schema
+### Schema
 
-The easiest way to define a schema is by using a JSON file. Have a look at the `schema.json` file for an example. The schema file should define four collections:
+The easiest way to define a schema is by using a JSON file. Have a look at the `schema.json` file for an example. The schema has already been included according to a simplified common syntax. Check out the file to see the logic.
 
-* RE: Restriction enzymes used for an assembly, e.g:
-
-```javascript
-{"name" : "BsaI", "seq" : "GGTCTCA"}
-```
-
-* RES: Pairs of restriction enzyme overhang sequences, which define either acceptors or recceivers, e.g.
-
-```javascript
-{"name": "AF", "re": "BsaI", "site5": "GGAG" , "site3": "CGCT"},
-{"name": "ab", "re": "SapI", "site5": "ATG" , "site3": "GCA" }
-```
-
-* BaseSeq: Plasmid sequence with one of the receiver sequence pairs, defined in RES section. This corresponds to different assembly levels, e.g. for an odd level (pOdd):
-
-```javascript
-{"name": "pOdd-1", "receiver": "AF", "gbFile": "gb/pOdd-1.gb"}
-```
-
-where `gbFile` is the path to the plasmid sequence in the GenBank format.
-
-* Backbone: A baseseq toogether with an adapter sequence, This corresponds to a particular vector, e.g. for pOdd-1
-
-``` javascript
-{"name": "pOdd-1", "baseSeq" : "pOdd", "adapter" : "ab" }
-```
-
-Once the schema file is complete, the schema can be applied to the database through an interactive python session:
+### Config
+The config file `schema.py` has some important details regarding the location of the databse and where to find the schema file.
 
 ```python
 >> from loopDB import LoopDB # Importing the LoopDB module
 
 >> loopDB = LoopDB( 'postgresql:///loopdb', clean = True) # Establishing the connection to the database
 >> loopDB.initFromFile('schema.json') # Initialising from the schema file
+```
+
+### Initialisation
+Initiate the database using
+
+```bash
+python initialise.py
+```
+
+### Loading sample sequences.
+```bash
+sh load.sh load/
 ```
