@@ -28,25 +28,25 @@
 	"BaseSeq":[
 		{"name": "L0", "gbFile": "gb/pL0R.gb" },
 		
-		{"name": "pCAodd-1", "receiver": "AF", "gbFile": "gb/pCAo.gb"},
-		{"name": "pCAodd-2", "receiver": "AF", "gbFile": "gb/pCAo.gb"},
-		{"name": "pCAodd-3", "receiver": "AF", "gbFile": "gb/pCAo.gb"},
-		{"name": "pCAodd-4", "receiver": "AF", "gbFile": "gb/pCAo.gb"},
+		{"name": "pOdd-1", "receiver": "AF", "gbFile": "gb/pOdd-1.gb"},
+		{"name": "pOdd-2", "receiver": "AF", "gbFile": "gb/pOdd-2.gb"},
+		{"name": "pOdd-3", "receiver": "AF", "gbFile": "gb/pOdd-3.gb"},
+		{"name": "pOdd-4", "receiver": "AF", "gbFile": "gb/pOdd-4.gb"},
 		
-		{"name": "pCAeven-1", "receiver": "aw", "gbFile": "gb/pCAe.gb"},
-		{"name": "pCAeven-2", "receiver": "aw", "gbFile": "gb/pCAe.gb"},
-		{"name": "pCAeven-3", "receiver": "aw", "gbFile": "gb/pCAe.gb"},
-		{"name": "pCAeven-4", "receiver": "aw", "gbFile": "gb/pCAe.gb"}
+		{"name": "pEven-1", "receiver": "aw", "gbFile": "gb/pEven-1.gb"},
+		{"name": "pEven-2", "receiver": "aw", "gbFile": "gb/pEven-2.gb"},
+		{"name": "pEven-3", "receiver": "aw", "gbFile": "gb/pEven-3.gb"},
+		{"name": "pEven-4", "receiver": "aw", "gbFile": "gb/pEven-4.gb"}
 	],
 	"Backbone":[
-		{"name": "pCAodd-1", "baseSeq" : "pCAodd-1", "adapter" : "ab" },
-		{"name": "pCAodd-2", "baseSeq" : "pCAodd-2", "adapter" : "bg" },
-		{"name": "pCAodd-3", "baseSeq" : "pCAodd-3", "adapter" : "ge" },
-		{"name": "pCAodd-4", "baseSeq" : "pCAodd-4", "adapter" : "ew" },
-		{"name": "pCAeven-1", "baseSeq" : "pCAeven-1", "adapter" : "AB" },
-		{"name": "pCAeven-2", "baseSeq" : "pCAeven-2", "adapter" : "BC" },
-		{"name": "pCAeven-3", "baseSeq" : "pCAeven-3", "adapter" : "CE" },
-		{"name": "pCAeven-4", "baseSeq" : "pCAeven-4", "adapter" : "EF" },
+		{"name": "pOdd-1", "baseSeq" : "pOdd-1", "adapter" : "ab" },
+		{"name": "pOdd-2", "baseSeq" : "pOdd-2", "adapter" : "bg" },
+		{"name": "pOdd-3", "baseSeq" : "pOdd-3", "adapter" : "ge" },
+		{"name": "pOdd-4", "baseSeq" : "pOdd-4", "adapter" : "ew" },
+		{"name": "pEven-1", "baseSeq" : "pEven-1", "adapter" : "AB" },
+		{"name": "pEven-2", "baseSeq" : "pEven-2", "adapter" : "BC" },
+		{"name": "pEven-3", "baseSeq" : "pEven-3", "adapter" : "CE" },
+		{"name": "pEven-4", "baseSeq" : "pEven-4", "adapter" : "EF" },
 
 		{"name": "AC-PROM5", 	"baseSeq" : "L0", "adapter" : "prom5"	},
 		{"name": "AB-PROM", 	"baseSeq" : "L0", "adapter" : "prom"	},
