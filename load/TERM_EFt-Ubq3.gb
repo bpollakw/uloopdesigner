@@ -1,0 +1,18 @@
+LOCUS       TERM_EFtUbq3             260 bp ds-DNA     circular     05-AUG-2019
+DEFINITION  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     Terminador      1..260
+                     /label=TermUbq3
+                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 tctgtttcgg ctttgatata ctactggtga agatgggccg tactactgca tcacaacgaa
+       61 aaataataat aagatgaaaa acttgaagtg gacttgaatg ttcactacta ctcattgacc
+      121 ataatgttta acatacatag ctcaatagta tttttgtgaa tatggcaaca caaacagtcc
+      181 aaaacaattg tctcttacta taccaaacca agggcgccgc ttgtttgcca ctctttgtgt
+      241 gcaatagtgt gattaccaca    
+//

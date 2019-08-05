@@ -1,0 +1,22 @@
+LOCUS       New_DNA                  271 bp ds-DNA     linear       20-NOV-2013
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     terminator      1..271
+                     /label=NosT
+                     /ApEinfo_fwdcolor=#cc002b
+                     /ApEinfo_revcolor=#0f00cc
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 10 offset 0
+ORIGIN
+        1 GAATTTCCCC GATCGTTCAA ACATTTGGCA ATAAAGTTTC TTAAGATTGA ATCCTGTTGC
+       61 CGGTCTTGCG ATGATTATCA TATAATTTCT GTTGAATTAC GTTAAGCATG TAATAATTAA
+      121 CATGTAATGC ATGACGTTAT TTATGAGATG GGTTTTTATG ATTAGAGTCC CGCAATTATA
+      181 CATTTAATAC GCGATAGAAA ACAAAATATA GCGCGCAAAC TAGGATAAAT TATCGCGCGC
+      241 GGTGTCATCT ATGTTACTAG ATCGGGAATT C  
+//
