@@ -63,6 +63,8 @@ for record in SeqIO.parse(sys.argv[1], "genbank"):
 		part = cds
 	elif ptype == "CTAG":
 		part = ctag
+	elif ptype == "TU":
+		part = TU
 	else:
 		part = term
 	

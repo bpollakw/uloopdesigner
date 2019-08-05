@@ -1,0 +1,12 @@
+load/CDS_CD-mRFP1.gb
+load/CDS_CD-sfGFP.gb
+load/CTAG_DE-3xStop.gb
+load/CTAG_DE-sfGFP.gb
+load/PROM5_AC-p49202.gb
+load/PROM5_AC-pTDH3.gb
+load/PROM5_AC-pTEF1.gb
+load/PROM_AB-J23101.gb
+load/TERM_EF-B0015.gb
+load/TU_AF-spacer1.gb
+load/TU_AF-spacer2.gb
+load/UTR5_BC-B0034m.gb

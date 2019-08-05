@@ -1,0 +1,21 @@
+LOCUS       CDS_CD_sfGFP             200 bp ds-DNA     circular     31-MAY-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    1..200
+                     /label=uLoop-O-spacer1
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 GGGAACAAAG GATTGTGCAG TGCCATACGA CAAGTTCGCC TCAATCGCCA AACCCCTTGA
+       61 CTGTGCTTCC CGAGCGGAAA CATTTAGATT GGCTACTACA ACCGTTGCTC TCCGGGCGGA
+      121 TAAGAGAATA AATCTGGATT CGGCAGAGTA GTCGGCCTTA TCATCAGTTA GATGTTGATA
+      181 ATCCCGTTGG GCAGGTCACA    
+//

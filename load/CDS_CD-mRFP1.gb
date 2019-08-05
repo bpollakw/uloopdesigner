@@ -1,10 +1,9 @@
-LOCUS       CDS_CD_mRFP1             678 bp ds-DNA     circular     14-MAY-2019
+LOCUS       CDS_CD_mRFP1             678 bp ds-DNA     circular     31-MAY-2019
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
-COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers

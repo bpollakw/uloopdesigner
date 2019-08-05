@@ -1,0 +1,48 @@
+LOCUS       CDS_CD_mRFP1             717 bp ds-DNA     circular     31-MAY-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    4..717
+                     /locus_tag="sfGFP"
+                     /label=sfGFP
+                     /ApEinfo_fwdcolor="#2eff18"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1..3
+                     /label=C
+                     /ApEinfo_fwdcolor="#1d49a4"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    13..19
+                     /label=SapI
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    15..15
+                     /label=SapI mut
+                     /ApEinfo_fwdcolor="#ff8000"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 ATGcgtaaag gcGAgGAGCt gttcactggt gtcgtcccta ttctggtgga actggatggt
+       61 gatgtcaacg gtcataagtt ttccgtgcgt ggcgagggtg aaggtgacgc aactaatggt
+      121 aaactgacgc tgaagttcat ctgtactact ggtaaactgc cggtaccttg gccgactctg
+      181 gtaacgacgc tgacttatgg tgttcagtgc tttgctcgtt atccggacca tatgaagcag
+      241 catgacttct tcaagtccgc catgccggaa ggctatgtgc aggaacgcac gatttccttt
+      301 aaggatgacg gcacgtacaa aacgcgtgcg gaagtgaaat ttgaaggcga taccctggta
+      361 aaccgcattg agctgaaagg cattgacttt aaagaagacg gcaatatcct gggccataag
+      421 ctggaataca attttaacag ccacaatgtt tacatcaccg ccgataaaca aaaaaatggc
+      481 attaaagcga attttaaaat tcgccacaac gtggaggatg gcagcgtgca gctggctgat
+      541 cactaccagc aaaacactcc aatcggtgat ggtcctgttc tgctgccaga caatcactat
+      601 ctgagcacgc aaagcgttct gtctaaagat ccgaacgaga aacgcgatca tatggttctg
+      661 ctggagttcg taaccgcagc gggcatcacg catggtatgg atgaactgta caaataa
+//
